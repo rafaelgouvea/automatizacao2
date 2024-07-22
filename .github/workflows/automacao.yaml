@@ -42,6 +42,9 @@ jobs:
           poetry run rsconnect add --account '${{ env.USER }}' --name '${{ env.USER }}' --token '${{ env.TOKEN }}' --secret '${{ env.SECRET }}'
           poetry run rsconnect deploy shiny projeto1 --title projeto1
 
+      - name: Pull Remote Changes
+        run: git pull
+
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

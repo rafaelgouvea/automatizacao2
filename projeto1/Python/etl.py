@@ -14,4 +14,4 @@ dados_tratados = dados_brutos.reset_index()
 
 
 # Salvar dados ----
-dados_tratados.to_csv(path_or_buf = "dados_tratados.csv", index = False)
+dados_tratados.to_csv(path_or_buf = "projeto1/dados_tratados.csv", index = False)

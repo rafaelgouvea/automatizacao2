@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gerenciabibliotecas"
+version = "0.1.0"
+description = "Gerenciamento de bibliotecas do projeto"
+authors = ["Your Name <you@example.com>"]
+license = "na"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-bcb = "^0.3.0"
+shiny = "^1.0.0"
+statsmodels = "^0.14.2"
+pandas = "^2.2.2"
+plotnine = "^0.13.6"
+rsconnect-python = "^1.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

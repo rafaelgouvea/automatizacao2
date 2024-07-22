@@ -43,6 +43,6 @@ jobs:
           poetry run rsconnect deploy shiny projeto1 --title projeto1
 
       - name: Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Atualização de dados e deploy automático
